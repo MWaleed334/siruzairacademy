@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/siruzairacademy/static/css/main.124ff0c7.css",
-    "main.js": "/siruzairacademy/static/js/main.51f239c5.js",
+    "main.css": "/siruzairacademy/static/css/main.b9b7bb88.css",
+    "main.js": "/siruzairacademy/static/js/main.ab6fa42c.js",
     "static/js/787.152d648b.chunk.js": "/siruzairacademy/static/js/787.152d648b.chunk.js",
     "static/media/whoWe.jpg": "/siruzairacademy/static/media/whoWe.0c0979884002fda57155.jpg",
     "static/media/ourmission.jpg": "/siruzairacademy/static/media/ourmission.60f28438a750c807a568.jpg",
@@ -19,12 +19,12 @@
     "static/media/vision1.jpg": "/siruzairacademy/static/media/vision1.2150438303cf31c91f64.jpg",
     "static/media/ourvission.jpg": "/siruzairacademy/static/media/ourvission.1c0221088a23485fcd1f.jpg",
     "index.html": "/siruzairacademy/index.html",
-    "main.124ff0c7.css.map": "/siruzairacademy/static/css/main.124ff0c7.css.map",
-    "main.51f239c5.js.map": "/siruzairacademy/static/js/main.51f239c5.js.map",
+    "main.b9b7bb88.css.map": "/siruzairacademy/static/css/main.b9b7bb88.css.map",
+    "main.ab6fa42c.js.map": "/siruzairacademy/static/js/main.ab6fa42c.js.map",
     "787.152d648b.chunk.js.map": "/siruzairacademy/static/js/787.152d648b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.124ff0c7.css",
-    "static/js/main.51f239c5.js"
+    "static/css/main.b9b7bb88.css",
+    "static/js/main.ab6fa42c.js"
   ]
 }
