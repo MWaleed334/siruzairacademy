@@ -1,0 +1,74 @@
+/* .whyChoose{
+    background-color: rgba(43, 27, 27);  
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.whyLogo{
+    width: 300px;
+}
+.whyLogo img{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+h1{
+    color: #b22222;
+    justify-content: center;
+}
+p{
+    color: white;
+    justify-content: center;
+    text-align: justify;
+}
+.WhyContent{
+    margin-left: 100px;
+} */
+
+.whyChoose {
+    background-color: rgb(43, 27, 27);  
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center; /* Center the content on all screens */
+}
+
+.whyLogo {
+    max-width: 100%; /* Ensure the logo stays within the container */
+    transition: 1s;
+}
+
+.whyLogo img {
+    max-width: 100%; /* Make sure the image scales down on smaller screens */
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.WhyContent h1 {
+    color: #b22222;
+}
+
+.WhyContent p {
+    color: white;
+    text-align: justify;
+}
+
+.WhyContent {
+    margin-left: 20px; /* Reduce the left margin for better mobile readability */
+    transition: 1s;
+}
+
+/* Media query for screens smaller than 768px (e.g., tablets and mobile devices) */
+@media (max-width: 768px) {
+    .whyLogo img {
+        margin-top: 10px; /* Reduce the top margin for smaller screens */
+    }
+
+    .WhyContent {
+        margin-left: 10px; /* Reduce the left margin further for better mobile readability */
+    }
+}

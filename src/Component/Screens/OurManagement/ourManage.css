@@ -1,0 +1,36 @@
+#logo4 {
+    width: 100%;
+    height: 200px;
+    background: url("../../Images/ourManagement.jpeg") no-repeat;
+    background-color: transparent;
+    background-size: cover;
+    object-fit: contain;
+    transition: 1s;
+}
+
+#logo4 img {
+    width: 100%;
+    height: auto;
+    mix-blend-mode: color-burn;
+    background-color: transparent;
+}
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+    #logo4 {
+        height: 150px; /* Adjust the height for smaller screens */
+    }
+
+    #logo4 img {
+        mix-blend-mode: normal; /* Remove mix-blend-mode for smaller screens */
+    }
+
+    /* Adjust the text styles for smaller screens */
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}

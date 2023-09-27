@@ -1,0 +1,81 @@
+#bg1 {
+    /* background-image: url(../../Images/img1steel.png); */
+    background: linear-gradient(rgba(35, 43, 56, 0.7),
+    rgba(255, 255, 255, 0.5)), url(../../Images/SameComponent.jpeg);
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    /* margin-top: -18px; */
+    /* object-fit: contain; */
+}
+
+#logo12 {
+    width: 200px;
+}
+
+#logo12 img {
+    width: 70%;
+    height: auto;
+    padding: 15px;
+    padding-top: 100px;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
+
+#text {
+    text-align: center;
+    color: white;
+    padding-left: 20px;
+    /* -top: -50px; */
+}
+
+#logo3 {
+    width: 300px;
+}
+
+#logo3 img {
+    width: 100%;
+    border-radius: 50%;
+    height: auto
+}
+
+#logo5 {
+    width: 300px;
+}
+
+#logo5:hover {
+    transition: 1s;
+    transform: translatey(-10px);
+}
+
+#logo5 img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+ .rotate1
+ {
+    justify-content: center;
+    gap: 15px;
+    text-align: justify;
+ }
+ .rotate2{
+    transition: 2s;
+    background-color: rgba(43, 27, 27, 0.945);
+    margin-bottom: 20px;
+    color: white;
+ }
+.rotate2:hover {
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+.rotate2 p{
+    padding-left: 20px;
+    color:white;
+}
+.rotate2 h3{
+    padding-left: 20px;
+    margin-top: -4px;
+}

@@ -1,0 +1,21 @@
+#contact-bg{
+    margin-top: -48px;
+    background: linear-gradient(rgba(35, 43, 56, 0.7),
+    rgba(255, 255, 255, 0.5)), url(../../Images/SameComponent.jpeg);
+    height:70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div_contact{
+    text-align: center;
+    color: black
+}
+.div_contact_btn{
+    text-align: center;
+    padding-bottom: 20px;
+}
+p{
+    font-weight: bold;
+    color: white
+}

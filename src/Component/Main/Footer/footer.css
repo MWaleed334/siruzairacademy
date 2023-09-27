@@ -1,0 +1,84 @@
+/* Base styles for the footer */
+#bg4 {
+    background: linear-gradient(rgba(35, 43, 56, 0.9), rgba(35, 43, 56, 0.5)), url(../../Images/book1.jpg);
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0; /* Add some padding for better spacing */
+}
+
+#bg4 h2, #bg4 h3, #bg4 ul, #bg4 li {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#bg4 ul {
+    list-style-type: none;
+}
+
+#bg4 ul li h3 {
+    padding: 5px 0;
+}
+
+/* Styles for the contact information */
+#bg4 h2 {
+    color: #B22222;
+}
+
+#bg4 h3 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Adjust margins and padding for smaller screens */
+@media (max-width: 768px) {
+    #bg4 {
+        text-align: center; /* Center content on smaller screens */
+    }
+
+    #bg4 ul li h3 {
+        text-align: center; /* Center list items */
+    }
+
+    #bg4 h3 {
+        margin-top: 20px;
+    }
+}
+
+/* Footer section */
+#footer {
+    background-color: black;
+    padding: 10px 0;
+}
+
+#footer a {
+    color: #B22222;
+    font-weight: 600;
+}
+
+/* Social media buttons */
+#social-media-icons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn_avatar {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn_avatar:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Adjust spacing for smaller screens */
+@media (max-width: 768px) {
+    #social-media-icons {
+        margin-top: 20px; /* Increase top margin for better spacing */
+    }
+}

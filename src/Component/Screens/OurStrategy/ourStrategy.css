@@ -1,0 +1,8 @@
+#bg2 {
+    background: linear-gradient(rgba(243, 36, 0, 0.507),
+    rgba(231, 108, 87, 0.5)), url(../../Images/strategy1.jpg);
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: justify;
+}

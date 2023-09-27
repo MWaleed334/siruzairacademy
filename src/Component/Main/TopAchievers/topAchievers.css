@@ -1,0 +1,82 @@
+.head{
+    color:rgb(43, 27, 27);
+    text-align: center;
+    margin-top: -40px;
+}
+  .table {
+    width: 100%;
+  }
+  
+  
+  .student-header {
+    background-color: #b22222;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .percentage-header {
+    background-color: #b22222;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+.table-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+    flex-wrap: wrap; /* Allow wrapping to the next row */
+}
+
+/* topAchievers.css */
+
+/* Common styles for all screen sizes */
+.image-container {
+    background-color: white; /* Set the background color for the entire container */
+    margin-top: -200px;
+}
+.image-container h1{
+    color: white;
+    background-color: rgb(43, 27, 27);
+    text-align: center;
+    text-decoration:wavy;
+}
+
+.table-container {
+    flex-basis: calc(50% - 10px);
+    color: #b22222;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(43, 27, 27); /* Set the background color for the table container */
+    margin-bottom: 20px;
+}
+
+/* Styles for table cells */
+.student-cell {
+    background-color: rgb(43, 27, 27); /* Set the background color for cells */
+    color: white;
+    text-decoration-color: aliceblue;
+    font-weight: bold;
+}
+.percentage-cell {
+    background-color: rgb(43, 27, 27); /* Set the background color for cells */
+    color: white;
+    text-decoration-color: aliceblue;
+    font-weight: bold;
+}
+
+/* Styles for mobile screens (up to 600px) */
+@media screen and (max-width: 600px) {
+    .table-row {
+        flex-direction: column;
+    }
+
+    .table-container {
+        flex-basis: 100%;
+    }
+}
+
+
+  

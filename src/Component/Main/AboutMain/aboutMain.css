@@ -1,0 +1,89 @@
+/* General styles */
+#about-bg {
+    background: linear-gradient(
+      rgba(35, 43, 56, 0.7),
+      rgba(255, 255, 255, 0.5)
+    ), url(../../Images/SameComponent.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-size: cover;
+    margin-top: -48px;
+  }
+  
+  .About__h1 {
+    text-shadow: 6px 4px black;
+    font-size: 35px;
+    padding-top: 200px;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Image styles */
+  .responsive-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .responsive-image {
+      display: block;
+      width: 75%;
+      margin: 40vh auto;
+    }
+  }
+  
+  /* Additional styles */
+  #aboutus-content {
+    margin-top: "-4%";
+    margin-bottom: "30px";
+    padding-top: "40px";
+    padding-bottom: "40px";
+    background-color: "transparent";
+  }
+  
+  #aboutus-logo3 {
+    width: 200px;
+  }
+  
+  #aboutus-logo3 img {
+    width: 100%;
+    border-radius: 50%;
+    height: 40vh;
+    margin-bottom: 100px;
+  }
+  
+  #aboutus-logo4 {
+    width: 200px;
+  }
+  
+  #aboutus-logo4 img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 50%;
+  }
+  
+  #aboutus-content h1 {
+    text-align: justify;
+    color: #b22222;
+  }
+  
+  #aboutus-content p {
+    text-align: justify;
+    color: white;
+    padding-bottom: 30px;
+  }
+  #ourmission
+{
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%); */
+    width: 200px;
+}
+#ourmission img{
+    width: 100%;
+    height: 40vh;
+    border-radius: 50%;
+}
+  
+  /* Media queries for specific elements can be added as needed */
+  
