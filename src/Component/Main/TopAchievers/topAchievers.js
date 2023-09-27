@@ -1,10 +1,14 @@
-import React from 'react';
+import { useEffect, React } from 'react';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@mui/material';
 import MetaData from '../../Screens/MetaData';
 import "./topAchievers.css";
 
 function TopAchievers() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
+        
         <>
         <MetaData title="Top Achievers" />
         <div className="image-container">
@@ -17,35 +21,35 @@ function TopAchievers() {
                     <Table aria-label="Aesthetic Table" className="table">
                         <TableHead>
                             <TableRow>
-                                <TableCell className="student-header" align="center">Student Name</TableCell>
-                                <TableCell className="percentage-header" align="center">Percentage</TableCell>
+                                <TableCell className="student-header" align="center" style={{color:"white", fontWeight: "bold"}}>Student Name</TableCell>
+                                <TableCell className="percentage-header" align="center" style={{color:"white", fontWeight: "bold", fontSize:"16px"}}>Percentage</TableCell>
                             </TableRow>
                         </TableHead>
                         <TableBody>
                             {/* Sample data, you can replace it with your data */}
                             <TableRow>
-                                <TableCell className="student-cell">Osama Ali</TableCell>
-                                <TableCell className="percentage-cell">89.3%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Osama Ali</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>89.3%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Zunair Waris</TableCell>
-                                <TableCell className="percentage-cell">88.7%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Zunair Waris</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>88.7%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Fahad Shakoor</TableCell>
-                                <TableCell className="percentage-cell">88.4%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Fahad Shakoor</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>88.4%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Muhammad Ali</TableCell>
-                                <TableCell className="percentage-cell">86.5%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Muhammad Ali</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>86.5%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Asra Nadeem</TableCell>
-                                <TableCell className="percentage-cell">85.9%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Asra Nadeem</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>85.9%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Anas Nizami</TableCell>
-                                <TableCell className="percentage-cell">85.6%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Anas Nizami</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>85.6%</TableCell>
                             </TableRow>
                             {/* Add more rows as needed */}
                         </TableBody>
@@ -56,35 +60,35 @@ function TopAchievers() {
                     <Table aria-label="Aesthetic Table" className="table">
                         <TableHead>
                             <TableRow>
-                                <TableCell className="student-header" align="center">Student Name</TableCell>
-                                <TableCell className="percentage-header" align="center">Percentage</TableCell>
+                                <TableCell className="student-header" align="center" style={{color:"white", fontWeight: "bold"}}>Student Name</TableCell>
+                                <TableCell className="percentage-header" align="center" style={{color:"white", fontWeight: "bold", fontSize:"16px"}}>Percentage</TableCell>
                             </TableRow>
                         </TableHead>
                         <TableBody>
                             {/* Sample data, you can replace it with your data */}
                             <TableRow>
-                                <TableCell className="student-cell">Sheeza Raza</TableCell>
-                                <TableCell className="percentage-cell">90.3%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Sheeza Raza</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>90.3%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Muhammad Haris</TableCell>
-                                <TableCell className="percentage-cell">87.2%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Muhammad Haris</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>87.2%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Anoosha Ahmed</TableCell>
-                                <TableCell className="percentage-cell">86.4%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Anoosha Ahmed</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>86.4%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Muhammad Anas Siddqui</TableCell>
-                                <TableCell className="percentage-cell">85.6%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Muhammad Anas Siddqui</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>85.6%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Owais Zakir</TableCell>
-                                <TableCell className="percentage-cell">83.7%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Owais Zakir</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>83.7%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Dua Zeeshan</TableCell>
-                                <TableCell className="percentage-cell">83.2%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Dua Zeeshan</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>83.2%</TableCell>
                             </TableRow>
                             {/* Add more rows as needed */}
                         </TableBody>
@@ -95,27 +99,27 @@ function TopAchievers() {
                     <Table aria-label="Aesthetic Table" className="table">
                         <TableHead>
                             <TableRow>
-                                <TableCell className="student-header" align="center">Student Name</TableCell>
-                                <TableCell className="percentage-header" align="center">Percentage</TableCell>
+                                <TableCell className="student-header" align="center" style={{color:"white", fontWeight: "bold"}}>Student Name</TableCell>
+                                <TableCell className="percentage-header" align="center" style={{color:"white", fontWeight: "bold", fontSize:"16px"}}>Percentage</TableCell>
                             </TableRow>
                         </TableHead>
                         <TableBody>
                             {/* Sample data, you can replace it with your data */}
                             <TableRow>
-                                <TableCell className="student-cell">Sheeza Raza</TableCell>
-                                <TableCell className="percentage-cell">90.3%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Sheeza Raza</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>90.3%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Muhammad Haris</TableCell>
-                                <TableCell className="percentage-cell">87.2%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Muhammad Haris</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>87.2%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Anoosha Ahmed</TableCell>
-                                <TableCell className="percentage-cell">86.4%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Anoosha Ahmed</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>86.4%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Muhammad Anas Siddqui</TableCell>
-                                <TableCell className="percentage-cell">85.6%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Muhammad Anas Siddqui</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>85.6%</TableCell>
                             </TableRow>
                             {/* Add more rows as needed */}
                         </TableBody>
@@ -126,27 +130,27 @@ function TopAchievers() {
                     <Table aria-label="Aesthetic Table" className="table">
                         <TableHead>
                             <TableRow>
-                                <TableCell className="student-header" align="center">Student Name</TableCell>
-                                <TableCell className="percentage-header" align="center">Percentage</TableCell>
+                                <TableCell className="student-header" align="center" style={{color:"white", fontWeight: "bold"}}>Student Name</TableCell>
+                                <TableCell className="percentage-header" align="center" style={{color:"white", fontWeight: "bold", fontSize:"16px"}}>Percentage</TableCell>
                             </TableRow>
                         </TableHead>
                         <TableBody>
                             {/* Sample data, you can replace it with your data */}
                             <TableRow>
-                                <TableCell className="student-cell">Sheeza Raza</TableCell>
-                                <TableCell className="percentage-cell">90.3%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Sheeza Raza</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>90.3%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Muhammad Haris</TableCell>
-                                <TableCell className="percentage-cell">87.2%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Muhammad Haris</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>87.2%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Anoosha Ahmed</TableCell>
-                                <TableCell className="percentage-cell">86.4%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Anoosha Ahmed</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>86.4%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Muhammad Anas Siddqui</TableCell>
-                                <TableCell className="percentage-cell">85.6%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Muhammad Anas Siddqui</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>85.6%</TableCell>
                             </TableRow>
                             {/* Add more rows as needed */}
                         </TableBody>
@@ -157,39 +161,39 @@ function TopAchievers() {
                     <Table aria-label="Aesthetic Table" className="table">
                         <TableHead>
                             <TableRow>
-                                <TableCell className="student-header" align="center">Student Name</TableCell>
-                                <TableCell className="percentage-header" align="center">Percentage</TableCell>
+                                <TableCell className="student-header" align="center" style={{color:"white", fontWeight: "bold"}}>Student Name</TableCell>
+                                <TableCell className="percentage-header" align="center" style={{color:"white", fontWeight: "bold", fontSize:"16px"}}>Percentage</TableCell>
                             </TableRow>
                         </TableHead>
                         <TableBody>
                             {/* Sample data, you can replace it with your data */}
                             <TableRow>
-                                <TableCell className="student-cell">Anas Shahid</TableCell>
-                                <TableCell className="percentage-cell">89.8%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Anas Shahid</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>89.8%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Sidra Tul Muntaha</TableCell>
-                                <TableCell className="percentage-cell">87.6%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Sidra Tul Muntaha</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>87.6%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Neha Khan</TableCell>
-                                <TableCell className="percentage-cell">87.1%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Neha Khan</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>87.1%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Sharjeel Ikram</TableCell>
-                                <TableCell className="percentage-cell">84.6%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Sharjeel Ikram</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>84.6%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Syeda Zehra Naqvi</TableCell>
-                                <TableCell className="percentage-cell">83.6%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Syeda Zehra Naqvi</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>83.6%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Muhammad Waleed Ahsan</TableCell>
-                                <TableCell className="percentage-cell">82.5%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Muhammad Waleed Ahsan</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>82.5%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Asharib Ahmed</TableCell>
-                                <TableCell className="percentage-cell">82.3%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Asharib Ahmed</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>82.3%</TableCell>
                             </TableRow>
                             {/* Add more rows as needed */}
                         </TableBody>
@@ -200,39 +204,39 @@ function TopAchievers() {
                     <Table aria-label="Aesthetic Table" className="table">
                         <TableHead>
                             <TableRow>
-                                <TableCell className="student-header" align="center">Student Name</TableCell>
-                                <TableCell className="percentage-header" align="center">Percentage</TableCell>
+                                <TableCell className="student-header" align="center" style={{color:"white", fontWeight: "bold"}}>Student Name</TableCell>
+                                <TableCell className="percentage-header" align="center" style={{color:"white", fontWeight: "bold", fontSize:"16px"}}>Percentage</TableCell>
                             </TableRow>
                         </TableHead>
                         <TableBody>
                             {/* Sample data, you can replace it with your data */}
                             <TableRow>
-                                <TableCell className="student-cell">Shehzeen Fakhar</TableCell>
-                                <TableCell className="percentage-cell">88.6%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Shehzeen Fakhar</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>88.6%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Rimsha Anwar</TableCell>
-                                <TableCell className="percentage-cell">87.5%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Rimsha Anwar</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>87.5%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Sumair Siddqui</TableCell>
-                                <TableCell className="percentage-cell">84.6%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Sumair Siddqui</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>84.6%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Hassam Qasim</TableCell>
-                                <TableCell className="percentage-cell">84.63%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Hassam Qasim</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>84.63%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Faiza Kalam</TableCell>
-                                <TableCell className="percentage-cell">83.4%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Faiza Kalam</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>83.4%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Ali Mustaqeem</TableCell>
-                                <TableCell className="percentage-cell">83.4%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Ali Mustaqeem</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>83.4%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Ayan Siddqui</TableCell>
-                                <TableCell className="percentage-cell">82.6%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Ayan Siddqui</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>82.6%</TableCell>
                             </TableRow>
                             {/* Add more rows as needed */}
                         </TableBody>
@@ -243,27 +247,27 @@ function TopAchievers() {
                     <Table aria-label="Aesthetic Table" className="table">
                         <TableHead>
                             <TableRow>
-                                <TableCell className="student-header" align="center">Student Name</TableCell>
-                                <TableCell className="percentage-header" align="center">Percentage</TableCell>
+                                <TableCell className="student-header" align="center" style={{color:"white", fontWeight: "bold"}}>Student Name</TableCell>
+                                <TableCell className="percentage-header" align="center" style={{color:"white", fontWeight: "bold", fontSize:"16px"}}>Percentage</TableCell>
                             </TableRow>
                         </TableHead>
                         <TableBody>
                             {/* Sample data, you can replace it with your data */}
                             <TableRow>
-                                <TableCell className="student-cell">Ushba Nadeem</TableCell>
-                                <TableCell className="percentage-cell">89.8%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Ushba Nadeem</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>89.8%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Bushra Mehmood</TableCell>
-                                <TableCell className="percentage-cell">82.8%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Bushra Mehmood</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>82.8%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Haseeb Maliik</TableCell>
-                                <TableCell className="percentage-cell">81.6%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Haseeb Maliik</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>81.6%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Osama Aslam</TableCell>
-                                <TableCell className="percentage-cell">81.3%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Osama Aslam</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>81.3%</TableCell>
                             </TableRow>
                             {/* Add more rows as needed */}
                         </TableBody>
@@ -274,27 +278,27 @@ function TopAchievers() {
                     <Table aria-label="Aesthetic Table" className="table">
                         <TableHead>
                             <TableRow>
-                                <TableCell className="student-header" align="center">Student Name</TableCell>
-                                <TableCell className="percentage-header" align="center">Percentage</TableCell>
+                                <TableCell className="student-header" align="center" style={{color:"white", fontWeight: "bold"}}>Student Name</TableCell>
+                                <TableCell className="percentage-header" align="center" style={{color:"white", fontWeight: "bold", fontSize:"16px"}}>Percentage</TableCell>
                             </TableRow>
                         </TableHead>
                         <TableBody>
                             {/* Sample data, you can replace it with your data */}
                             <TableRow>
-                                <TableCell className="student-cell">Mahad Husaain</TableCell>
-                                <TableCell className="percentage-cell">86.8%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Mahad Husaain</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>86.8%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Shafaq Shafiqullah</TableCell>
-                                <TableCell className="percentage-cell">85.6%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Shafaq Shafiqullah</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>85.6%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">M.Hammad</TableCell>
-                                <TableCell className="percentage-cell">84.5%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>M.Hammad</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>84.5%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">M.Huzaifa</TableCell>
-                                <TableCell className="percentage-cell">84.3%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>M.Huzaifa</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>84.3%</TableCell>
                             </TableRow>
                             {/* Add more rows as needed */}
                         </TableBody>
@@ -305,31 +309,31 @@ function TopAchievers() {
                     <Table aria-label="Aesthetic Table" className="table">
                         <TableHead>
                             <TableRow>
-                                <TableCell className="student-header" align="center">Student Name</TableCell>
-                                <TableCell className="percentage-header" align="center">Percentage</TableCell>
+                                <TableCell className="student-header" align="center" style={{color:"white", fontWeight: "bold"}}>Student Name</TableCell>
+                                <TableCell className="percentage-header" align="center" style={{color:"white", fontWeight: "bold", fontSize:"16px"}}>Percentage</TableCell>
                             </TableRow>
                         </TableHead>
                         <TableBody>
                             {/* Sample data, you can replace it with your data */}
                             <TableRow>
-                                <TableCell className="student-cell">M. Hasnain Shahid</TableCell>
-                                <TableCell className="percentage-cell">94.6%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>M. Hasnain Shahid</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>94.6%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Areesha Naseem</TableCell>
-                                <TableCell className="percentage-cell">88.29%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Areesha Naseem</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>88.29%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Iqra Akbar</TableCell>
-                                <TableCell className="percentage-cell">88.18%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Iqra Akbar</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>88.18%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Umais Shamsi</TableCell>
-                                <TableCell className="percentage-cell">86.36%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Umais Shamsi</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>86.36%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Abdullah Taufeeq</TableCell>
-                                <TableCell className="percentage-cell">85.18%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Abdullah Taufeeq</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>85.18%</TableCell>
                             </TableRow>
                             {/* Add more rows as needed */}
                         </TableBody>
@@ -340,31 +344,31 @@ function TopAchievers() {
                     <Table aria-label="Aesthetic Table" className="table">
                         <TableHead>
                             <TableRow>
-                                <TableCell className="student-header" align="center">Student Name</TableCell>
-                                <TableCell className="percentage-header" align="center">Percentage</TableCell>
+                                <TableCell className="student-header" align="center" style={{color:"white", fontWeight: "bold"}}>Student Name</TableCell>
+                                <TableCell className="percentage-header" align="center" style={{color:"white", fontWeight: "bold", fontSize:"16px"}}>Percentage</TableCell>
                             </TableRow>
                         </TableHead>
                         <TableBody>
                             {/* Sample data, you can replace it with your data */}
                             <TableRow>
-                                <TableCell className="student-cell">Alina Khan</TableCell>
-                                <TableCell className="percentage-cell">92.63%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Alina Khan</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>92.63%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Mahad Hasan</TableCell>
-                                <TableCell className="percentage-cell">85.59%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Mahad Hasan</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>85.59%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Ali Shahid</TableCell>
-                                <TableCell className="percentage-cell">85%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Ali Shahid</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>85%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Armeen Arif</TableCell>
-                                <TableCell className="percentage-cell">85.09%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Armeen Arif</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>85.09%</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell className="student-cell">Abdullah Khan</TableCell>
-                                <TableCell className="percentage-cell">83.36%</TableCell>
+                                <TableCell className="student-cell" style={{color:"white"}}>Abdullah Khan</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>83.36%</TableCell>
                             </TableRow>
                             {/* Add more rows as needed */}
                         </TableBody>

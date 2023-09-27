@@ -24,7 +24,6 @@ function App() {
                     </Routes>
                     <Footer />
                  </Router> 
-                 {/* <OurManageMain/> */}
     </div>
   );
 }

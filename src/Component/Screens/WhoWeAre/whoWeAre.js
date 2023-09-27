@@ -27,7 +27,7 @@ function WhoWeAre() {
                 <h1 className="h1__whoWeAre">WHO WE ARE</h1>
               </Typography>
               <Typography className="p__whoWeAre">
-              At Dir Uzaie's Academy, we are more than just educators; we are mentors, motivators, and partners in your educational journey. Our team is driven by a shared passion for fostering quality education and empowering students to reach their full potential. With years of experience and a commitment to excellence, we provide personalized learning experiences that not only enhance academic performance but also nurture character and critical thinking. Discover a world of opportunities with us, where learning knows no bounds.
+              At Sir Uzair's Academy, we are more than just educators; we are mentors, motivators, and partners in your educational journey. Our team is driven by a shared passion for fostering quality education and empowering students to reach their full potential. With years of experience and a commitment to excellence, we provide personalized learning experiences that not only enhance academic performance but also nurture character and critical thinking. Discover a world of opportunities with us, where learning knows no bounds.
               </Typography>
               <br />
               <div style={{ textAlign: "center", marginBottom: "10px" }}>

@@ -10,6 +10,16 @@
     background-size: cover;
     margin-top: -48px;
   }
+  #aboutus-content h1 {
+    font-size: 30px;
+    font-weight: 900;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+    text-align: justify; /* Center the text */
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+}
+
   
   .About__h1 {
     text-shadow: 6px 4px black;

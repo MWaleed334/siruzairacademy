@@ -23,7 +23,7 @@ function TopManagement() {
         <Grid container>
           <Grid item lg={1} md={1} xs={1} sm={1} />
           <Grid item lg={11} sm={11} md={11} xs={11}>
-            <h1 className="head">Top Management</h1>
+            <h1 className="head"></h1>
           </Grid>
         </Grid>
       </div>

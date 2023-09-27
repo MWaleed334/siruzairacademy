@@ -44,7 +44,7 @@ function About() {
             <Grid item lg={2} md={1} sm={2} xs={0}></Grid>
             <Grid item lg={5} md={6} sm={6} xs={12}  data-aos="fade-left" style={{transition:"2s"}}>
               <Typography >
-                <h1 style={{ textAlign: "justify", color: "black" }}>OUR EDUCATIONAL APPROACH</h1>
+                <h1 style={{ justifyContent:"center", color: "black" }}>OUR EDUCATIONAL APPROACH</h1>
               </Typography>
               <Typography style={{ textAlign: "justify", color: "black" }}>
                 "At SIR UZAIR'S ACADEMY, our educational approach is rooted in innovation and a deep understanding of diverse learning needs. We believe that education should be a transformative experience, inspiring a lifelong love for learning. Our approach goes beyond conventional methods, emphasizing creativity, critical thinking, and holistic development. With a dedicated team of educators, cutting-edge resources, and a passion for excellence, we are shaping the future of education one student at a time. Explore our unique educational approach and join us in redefining learning for the modern world..
