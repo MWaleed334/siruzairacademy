@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/siruzairacademy/static/css/main.124ff0c7.css",
+    "main.js": "/siruzairacademy/static/js/main.51f239c5.js",
+    "static/js/787.152d648b.chunk.js": "/siruzairacademy/static/js/787.152d648b.chunk.js",
+    "static/media/whoWe.jpg": "/siruzairacademy/static/media/whoWe.0c0979884002fda57155.jpg",
+    "static/media/ourmission.jpg": "/siruzairacademy/static/media/ourmission.60f28438a750c807a568.jpg",
+    "static/media/steel4.jpg": "/siruzairacademy/static/media/steel4.26c9dd2fe637c19ce348.jpg",
+    "static/media/img2.jpeg": "/siruzairacademy/static/media/img2.9dfde282d0abe623d48c.jpeg",
+    "static/media/WhyChoose2.jpg": "/siruzairacademy/static/media/WhyChoose2.4b8c01177209106c2ff0.jpg",
+    "static/media/img1.jpeg": "/siruzairacademy/static/media/img1.c11aba9f0742eacac03e.jpeg",
+    "static/media/img4.jpeg": "/siruzairacademy/static/media/img4.b8d4063a71c2864c5448.jpeg",
+    "static/media/strategy1.jpg": "/siruzairacademy/static/media/strategy1.1bf12e2b9a3e7699fffe.jpg",
+    "static/media/img3.jpeg": "/siruzairacademy/static/media/img3.e154c3825c68b00aa757.jpeg",
+    "static/media/SameComponent.jpeg": "/siruzairacademy/static/media/SameComponent.502d7075a817fcf98b01.jpeg",
+    "static/media/book1.jpg": "/siruzairacademy/static/media/book1.325e564c8ee45d6f9cfd.jpg",
+    "static/media/logo1.jpeg": "/siruzairacademy/static/media/logo1.e12f068e603aa202ad9f.jpeg",
+    "static/media/ourManagement.jpeg": "/siruzairacademy/static/media/ourManagement.f1e506f0834557e5058e.jpeg",
+    "static/media/vision1.jpg": "/siruzairacademy/static/media/vision1.2150438303cf31c91f64.jpg",
+    "static/media/ourvission.jpg": "/siruzairacademy/static/media/ourvission.1c0221088a23485fcd1f.jpg",
+    "index.html": "/siruzairacademy/index.html",
+    "main.124ff0c7.css.map": "/siruzairacademy/static/css/main.124ff0c7.css.map",
+    "main.51f239c5.js.map": "/siruzairacademy/static/js/main.51f239c5.js.map",
+    "787.152d648b.chunk.js.map": "/siruzairacademy/static/js/787.152d648b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.124ff0c7.css",
+    "static/js/main.51f239c5.js"
+  ]
+}
