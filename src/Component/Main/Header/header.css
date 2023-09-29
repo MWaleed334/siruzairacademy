@@ -1,6 +1,8 @@
 #hover1:hover {
     color: black;
     border-bottom: 1px solid brown;
+    color: black;
+    border-bottom: 1px solid black;
 }
 
 .textNav h1 {
@@ -8,48 +10,44 @@
     font-weight: 900;
     -webkit-text-stroke: 2px white;
     color: transparent;
-    text-align: center; /* Center the text on all screens */
 }
 
 #headerimg1 {
-    width: 250px;
-}
-
-#headerimg1 img {
-    padding-top: 10px;
-    width: 39%;
+    width: 100%;
+    max-width: 80px; /* Adjust the width as needed */
     height: auto;
-    display: flex;
     border-radius: 50%;
     box-shadow: cornsilk;
-    box-sizing: content-box;
-    padding-bottom: 5px;
+    padding: 5px;
 }
 
 @media (min-width: 362px) and (max-width: 720px) {
-    /* Display the image and text on mobile screens */
-    #headerimg1 img {
-        display: block;
-        margin: 0 auto; /* Center the image horizontally on mobile screens */
+    #headerimg1 {
+        max-width: 60px; /* Adjust the width as needed for mobile */
     }
 
-    /* Center the text on mobile screens */
     .textNav h1 {
-        font-size: 24px; /* Adjust the font size as needed */
+        text-align: center;
+        font-size: 24px;
+    }
+
+    /* Hide the academy name on mobile screens */
+    .textNav h1 {
+        display: none;
     }
 
     .MuiButton-root {
         display: block;
-        margin: 10px auto; /* Center the buttons horizontally with some spacing */
-        width: 80%; /* Adjust the button width as needed */
-        background-color: #B22222; /* Button background color */
-        color: white; /* Button text color */
-        border: none; /* Remove button border */
-        border-radius: 5px; /* Add border radius if desired */
-        padding: 10px; /* Adjust padding as needed */
-        text-align: center; /* Center button text */
-        text-decoration: none; /* Remove button text underline */
-        font-weight: 500; /* Adjust font weight as needed */
-        font-size: 16px; /* Adjust font size as needed */
+        margin: 10px auto;
+        width: 80%;
+        background-color: #B22222;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
     }
 }

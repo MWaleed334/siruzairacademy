@@ -374,6 +374,60 @@ function TopAchievers() {
                         </TableBody>
                     </Table>
                 </TableContainer>
+                <TableContainer component={Paper} className="table-container">
+                    <h1>Year 2023</h1>
+                    <Table aria-label="Aesthetic Table" className="table">
+                        <TableHead>
+                            <TableRow>
+                                <TableCell className="student-header" align="center" style={{color:"white", fontWeight: "bold"}}>Student Name</TableCell>
+                                <TableCell className="percentage-header" align="center" style={{color:"white", fontWeight: "bold"}}>Percentage</TableCell>
+                            </TableRow>
+                        </TableHead>
+                        <TableBody>
+                            {/* Sample data, you can replace it with your data */}
+                            <TableRow>
+                                <TableCell className="student-cell" style={{color:"white"}}>Arsalan Adnan</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>90.00%</TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell className="student-cell" style={{color:"white"}}>Rahim Uddin</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>86.54%</TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell className="student-cell" style={{color:"white"}}>Moiz Raza</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>85.91%</TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell className="student-cell" style={{color:"white"}}>Teham</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>84.73%</TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell className="student-cell" style={{color:"white"}}>Labiqa</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>84.45%</TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell className="student-cell" style={{color:"white"}}>Farjad Hussain</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>84.09%</TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell className="student-cell" style={{color:"white"}}>Maham Masood</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>83.47%</TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell className="student-cell" style={{color:"white"}}>Sarah Sohail</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>83.36%</TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell className="student-cell" style={{color:"white"}}>Asharib Ahmed</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>82.09%</TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell className="student-cell" style={{color:"white"}}>Amna Fatima</TableCell>
+                                <TableCell className="percentage-cell" style={{color:"white"}}>81.00%</TableCell>
+                            </TableRow>
+                        </TableBody>
+                    </Table>
+                </TableContainer>
             </div>
         </div>
         </>

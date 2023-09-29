@@ -53,7 +53,8 @@
   }
 
   .p__whoWeAre {
-      text-align: center;
+    text-align: justify;
+      justify-content: center;
   }
 
   /* Adjust the image size for smaller screens */
